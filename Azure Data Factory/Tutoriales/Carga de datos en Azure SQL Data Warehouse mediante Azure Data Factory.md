@@ -19,7 +19,7 @@
 
 #### Creación una factoría de datos
 
-Para crear una factoría de datos consulte [Creación de una factoría de datos](./Creación&nbsp;de&nbsp;una&nbsp;factoría&nbsp;de&nbsp;datos.md).
+Para crear una factoría de datos consulte [Creación de una factoría de datos](Creaci%C3%B3n%20de%20una%20factor%C3%ADa%20de%20datos.md).
 
 
 
