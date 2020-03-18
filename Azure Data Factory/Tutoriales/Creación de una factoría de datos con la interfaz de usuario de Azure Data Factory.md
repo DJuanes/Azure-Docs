@@ -20,7 +20,7 @@ En esta guía se describe cómo usar la interfaz de usuario de Azure Data Factor
 
 
 
-#### Creación una factoría de datos
+#### Creación de la factoría de datos
 
 Para crear una factoría de datos consulte [Creación de una factoría de datos](Creación de una factoría de datos.md).
 

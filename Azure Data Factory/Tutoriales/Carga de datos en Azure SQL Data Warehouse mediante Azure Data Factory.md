@@ -9,7 +9,7 @@
 #### Prerrequisitos
 
 - Suscripción de Azure: si no tiene una suscripción a Azure, [puede crear una cuenta gratuita](https://azure.microsoft.com/free/).
-- Azure SQL Data Warehouse: Este almacén de datos contiene los datos que se copian de SQL Database.
+- Azure SQL Data Warehouse: este almacén de datos contiene los datos que se copian de SQL Database.
 - Azure SQL Database: este tutorial copia los datos de una base de datos de Azure SQL con los datos de ejemplo de Adventure Works LT.
 - Cuenta de almacenamiento de Azure: Azure Storage se usa como blob de *almacenamiento provisional* en la operación de copia masiva.
 
@@ -17,7 +17,7 @@
 
 
 
-#### Creación una factoría de datos
+#### Creación de la factoría de datos
 
 Para crear una factoría de datos consulte [Creación de una factoría de datos](Creaci%C3%B3n%20de%20una%20factor%C3%ADa%20de%20datos.md).
 
@@ -61,7 +61,6 @@ Para crear una factoría de datos consulte [Creación de una factoría de datos]
 12. Para ver las ejecuciones de actividad, seleccione el vínculo **View Activity Runs** (Ver ejecuciones de actividad) en la columna **Actions** (Acciones). Para volver a la vista de ejecuciones de canalización, seleccione el vínculo **Pipelines** (Canalizaciones) de la parte superior. Seleccione **Refresh** (Actualizar) para actualizar la lista.
 
 13. Para supervisar los detalles de la ejecución de cada actividad de copia, seleccione el vínculo **Details** (Detalles) en **Actions** (Acciones) en la vista de supervisión de la actividad.
-
 
 ------
 
