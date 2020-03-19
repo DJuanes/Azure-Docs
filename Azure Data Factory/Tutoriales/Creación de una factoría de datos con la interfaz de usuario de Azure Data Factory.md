@@ -16,6 +16,19 @@ En esta guía se describe cómo usar la interfaz de usuario de Azure Data Factor
 
 #### Prerrequisitos
 
+###### Suscripción de Azure
+
+Si no tiene una suscripción a Azure, [puede crear una cuenta gratuita](https://azure.microsoft.com/free/).
+
+###### Roles de Azure
+
+La cuenta debe tener un rol *Contributor* o *Owner* asignado o ser *administrator* de la suscripción de Azure.
+Para ver los permisos que tiene en la suscripción, vaya a Azure Portal. En la esquina superior derecha, seleccione su nombre de usuario y luego seleccione **Permissions** (Permisos).
+
+###### Cuenta de Azure Storage
+
+Para crear un contenedor de blobs consulte [Creación de un contenedor de blobs](Creaci%C3%B3n%20de%20un%20contenedor%20de%20blobs.md)
+
 
 
 

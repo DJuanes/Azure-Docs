@@ -25,7 +25,7 @@ Si no tiene una suscripción a Azure, [puede crear una cuenta gratuita](https://
 ###### Roles de Azure
 
 La cuenta debe tener un rol *Contributor* o *Owner* asignado o ser *administrator* de la suscripción de Azure.
-Para ver los permisos que tiene en la suscripción, vaya a Azure Portal. En la esquina superior derecha, seleccione su nombre de usuario y luego seleccione **Permissions**.
+Para ver los permisos que tiene en la suscripción, vaya a Azure Portal. En la esquina superior derecha, seleccione su nombre de usuario y luego seleccione **Permissions** (Permisos).
 
 ###### SQL Server 2014, 2016 y 2017
 
