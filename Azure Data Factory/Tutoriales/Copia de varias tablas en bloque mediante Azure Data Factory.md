@@ -17,24 +17,15 @@ A grandes rasgos, este tutorial incluye los pasos siguientes:
 
 
 
-
-
 #### Prerrequisitos
 
-- Suscripción de Azure: si no tiene una suscripción a Azure, [puede crear una cuenta gratuita](https://azure.microsoft.com/free/).
-- Azure SQL Data Warehouse: este almacén de datos contiene los datos que se copian de SQL Database.
-- Azure SQL Database: este tutorial copia los datos de una base de datos de Azure SQL con los datos de ejemplo de Adventure Works LT.
-- Cuenta de almacenamiento de Azure: Azure Storage se usa como blob de *almacenamiento provisional* en la operación de copia masiva.
-
-
+Consulte la sección [Prerrequisitos](Prerrequisitos.md).
 
 
 
 #### Creación de la factoría de datos
 
 Para crear una factoría de datos consulte [Creación de una factoría de datos](Creaci%C3%B3n%20de%20una%20factor%C3%ADa%20de%20datos.md).
-
-
 
 
 
@@ -99,8 +90,6 @@ En este paso, creará un servicio vinculado para vincular Azure Blob Storage con
 
 
 
-
-
 #### Creación de conjuntos de datos
 
 En este procedimiento creará los conjuntos de datos de origen y recepción.
@@ -146,8 +135,6 @@ En este paso, creará un conjunto de datos de destino para Azure Synapse Analyti
    - En la página **Add Dynamic Content** (Agregar contenido dinámico), haga clic en **DWTAbleName** en **Parameters** (Parámetros) y se rellenará automáticamente el cuadro de texto de expresiones de la parte superior `@dataset().DWTableName`, finalmente, haga clic en **Finish** (Finalizar). La propiedad **tableName** se establece en el valor que se pasa como argumento del parámetro **DWTableName**. La actividad ForEach recorre en iteración una lista de tablas y las pasa una a una a la actividad de copia.
 
 ------
-
-
 
 
 
@@ -218,7 +205,6 @@ En este paso, creará la canalización **IterateAndCopySQLTables**:
 
 9. Para comprobar la configuración de la canalización, haga clic en **Validate** (Validar) en la barra de herramientas. Para cerrar **Pipeline Validation Report** (Informe de comprobación de la canalización), haga clic en **>>** .
 
-
 ------
 
 
@@ -266,10 +252,7 @@ En este paso, creará la canalización **GetTableListAndTriggerCopyData**:
 
 9. Para publicar entidades (conjuntos de datos, canalizaciones, etc.) en el servicio Data Factory, haga clic en **Publish all** (Publicar todo) en la parte superior de la ventana. Espere hasta que la publicación se realice correctamente.
 
-
 ------
-
-
 
 
 
@@ -281,10 +264,7 @@ En este paso, creará la canalización **GetTableListAndTriggerCopyData**:
 
 2. Confirme la ejecución en la página **Pipeline run** (Ejecución de canalización) y, a continuación, seleccione **Finish** (Finalizar).
 
-
 ------
-
-
 
 
 
@@ -355,7 +335,6 @@ En este paso, creará la canalización **GetTableListAndTriggerCopyData**:
 4. Para volver a la vista **Pipeline Runs** (Ejecuciones de canalización), haga clic en el vínculo **All Pipeline runs** (Todas las ejecuciones de canalización) en la parte superior del menú de la ruta de navegación. Haga clic en **IterateAndCopySQLTables**, bajo la columna **PIPELINE NAME** (NOMBRE DE CANALIZACIÓN), para ver las ejecuciones de actividad de la canalización. Tenga en cuenta que hay una ejecución de la actividad **Copy** (Copiar) para cada tabla de la salida de la actividad **Lookup** (Búsqueda).
 
 5. Confirme que los datos se copiaron en la instancia de Azure Synapse Analytics de destino.
-
 
 ------
 

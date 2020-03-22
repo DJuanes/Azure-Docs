@@ -8,20 +8,13 @@
 
 #### Prerrequisitos
 
-- Suscripción de Azure: si no tiene una suscripción a Azure, [puede crear una cuenta gratuita](https://azure.microsoft.com/free/).
-- Azure SQL Data Warehouse: este almacén de datos contiene los datos que se copian de SQL Database.
-- Azure SQL Database: este tutorial copia los datos de una base de datos de Azure SQL con los datos de ejemplo de Adventure Works LT.
-- Cuenta de almacenamiento de Azure: Azure Storage se usa como blob de *almacenamiento provisional* en la operación de copia masiva.
-
-
+Consulte la sección [Prerrequisitos](Prerrequisitos.md).
 
 
 
 #### Creación de la factoría de datos
 
 Para crear una factoría de datos consulte [Creación de una factoría de datos](Creaci%C3%B3n%20de%20una%20factor%C3%ADa%20de%20datos.md).
-
-
 
 
 

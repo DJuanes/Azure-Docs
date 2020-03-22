@@ -14,76 +14,15 @@ En este tutorial, realizará los siguientes pasos:
 
 
 
-
-
 #### Prerrequisitos
 
-###### Suscripción de Azure
-
-Si no tiene una suscripción a Azure, [puede crear una cuenta gratuita](https://azure.microsoft.com/free/).
-
-###### Roles de Azure
-
-La cuenta debe tener un rol *Contributor* o *Owner* asignado o ser *administrator* de la suscripción de Azure.
-Para ver los permisos que tiene en la suscripción, vaya a Azure Portal. En la esquina superior derecha, seleccione su nombre de usuario y luego seleccione **Permissions** (Permisos).
-
-###### SQL Server 2014, 2016 y 2017
-
-En este tutorial se usa una base de datos de SQL Server local como almacén de datos de origen. Tiene que crear una tabla denominada **emp** e insertar un par de entradas de ejemplo:
-
-```sql
-CREATE TABLE dbo.emp
- (
-     ID int IDENTITY(1,1) NOT NULL,
-     FirstName varchar(50),
-     LastName varchar(50)
- )
- GO
-
- INSERT INTO emp (FirstName, LastName) VALUES ('John', 'Doe')
- INSERT INTO emp (FirstName, LastName) VALUES ('Jane', 'Doe')
- GO
-```
-
-###### Cuenta de almacenamiento de Azure
-
-La canalización que crea en este tutorial copia los datos de la base de datos de SQL Server local (origen) en Blob Storage (receptor).
-Para obtener el nombre y la clave de la cuenta de almacenamiento, siga estos pasos:
-
-------
-
-1. Inicie el explorador web **Microsoft Edge** o **Google Chrome**.
-2. Vaya a Azure Portal (https://portal.azure.com/).
-3. Seleccione **All services** en el panel izquierdo. Use la palabra clave **Storage** para filtrar el resultado y, luego, seleccione **Storage accounts**.
-4. En la lista de cuentas de almacenamiento, filtre por su cuenta de almacenamiento, si fuera necesario. Después, seleccione su cuenta de almacenamiento.
-5. En la ventana **Storage account**, seleccione **Access keys**.
-6. En los cuadros **Storage account name** y **key1**, copie los valores y péguelos en un editor de texto, para su uso posterior en el tutorial.
-
-------
-
-
-
-En esta sección se crea un contenedor de blobs denominado **adftutorial** en la instancia de Blob Storage:
-
-------
-
-1. En la ventana **Storage account**, vaya a **Overview** y, después, seleccione **Blobs**.
-2. En la ventana **Blob service**, seleccione **Container**.
-3. En la ventana **New container** en **Name**, escriba **adftutorial**. Después, seleccione **OK**.
-4. En la lista de contenedores, seleccione **adftutorial**.
-5. Mantenga abierta la ventana **container** de **adftutorial**. Úselo para comprobar la salida al final de este tutorial.
-
-------
-
-
+Consulte la sección [Prerrequisitos](Prerrequisitos.md).
 
 
 
 #### Creación de la factoría de datos
 
 Para crear una factoría de datos consulte [Creación de una factoría de datos](Creaci%C3%B3n%20de%20una%20factor%C3%ADa%20de%20datos.md)
-
-
 
 
 

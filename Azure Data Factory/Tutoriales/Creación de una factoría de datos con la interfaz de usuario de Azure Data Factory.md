@@ -12,32 +12,15 @@ En esta guía se describe cómo usar la interfaz de usuario de Azure Data Factor
 
 
 
-
-
 #### Prerrequisitos
 
-###### Suscripción de Azure
-
-Si no tiene una suscripción a Azure, [puede crear una cuenta gratuita](https://azure.microsoft.com/free/).
-
-###### Roles de Azure
-
-La cuenta debe tener un rol *Contributor* o *Owner* asignado o ser *administrator* de la suscripción de Azure.
-Para ver los permisos que tiene en la suscripción, vaya a Azure Portal. En la esquina superior derecha, seleccione su nombre de usuario y luego seleccione **Permissions** (Permisos).
-
-###### Cuenta de Azure Storage
-
-Para crear un contenedor de blobs consulte [Creación de un contenedor de blobs](Creaci%C3%B3n%20de%20un%20contenedor%20de%20blobs.md)
-
-
+Consulte la sección [Prerrequisitos](Prerrequisitos.md).
 
 
 
 #### Creación de la factoría de datos
 
 Para crear una factoría de datos consulte [Creación de una factoría de datos](Creaci%C3%B3n%20de%20una%20factor%C3%ADa%20de%20datos.md).
-
-
 
 
 
@@ -56,8 +39,6 @@ En este procedimiento, creará un servicio vinculado para vincular la cuenta de 
    - Para guardar el servicio vinculado, seleccione **Finish** (Finalizar).
 
 ------
-
-
 
 
 
@@ -92,8 +73,6 @@ En la definición del dataset de salida, se especifica el contenedor de blobs (*
 
 
 
-
-
 #### Creación de la canalización
 
 En este procedimiento, va a crear y comprobar un pipeline con una actividad de copia que utiliza los datasets de entrada y de salida. La actividad de copia realiza una copia de los datos desde el archivo especificado en la configuración del dataset de entrada hasta el archivo especificado en la configuración del dataset de salida. Si el dataset de entrada especifica solo una carpeta, la actividad de copia realiza una copia de todos los archivos.
@@ -112,8 +91,6 @@ En este procedimiento, va a crear y comprobar un pipeline con una actividad de c
 
 
 
-
-
 #### Depuración de la canalización
 
 En este paso va a depurar el pipeline antes de implementarlo en Data Factory.
@@ -128,8 +105,6 @@ En este paso va a depurar el pipeline antes de implementarlo en Data Factory.
 
 
 
-
-
 #### Desencadenamiento manual de la canalización
 
 En este procedimiento se implementan las entidades (linked services, datasets, pipelines) en Azure Data Factory. A continuación, desencadenará manualmente una ejecución del pipeline.
@@ -140,8 +115,6 @@ En este procedimiento se implementan las entidades (linked services, datasets, p
 2. Para desencadenar la canalización de forma manual, seleccione **Add Trigger** y luego seleccione **Trigger Now** (Desencadenar ahora). En la página **Pipeline Run** (Ejecución de canalización), seleccione **Finish** (Finalizar).
 
 ------
-
-
 
 
 
@@ -162,8 +135,6 @@ En este procedimiento se implementan las entidades (linked services, datasets, p
 5. Puede volver a la vista **Pipeline Runs** desde la vista **Activity Runs**, seleccionando el vínculo **Pipeline Runs**.
 
 ------
-
-
 
 
 

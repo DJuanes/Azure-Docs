@@ -6,12 +6,12 @@
 
 #### Tutoriales
 
-[Creación de un contenedor de blobs](/Azure%20Data%20Factory/Tutoriales/Creaci%C3%B3n%20de%20un%20contenedor%20de%20blobs.md)
+[Prerrequisitos](/Azure%20Data%20Factory/Tutoriales/Prerrequisitos.md)
 
-En este tutorial se crea un contenedor de blobs, el cual sirve como origen o destino en los otros tutoriales
+Requisitos previos que debe cumplir antes de comenzar con los tutoriales.
 
 [Creación de una factoría de datos](/Azure%20Data%20Factory/Tutoriales/Creaci%C3%B3n%20de%20una%20factor%C3%ADa%20de%20datos.md)
-En este tutorial creará una factoría de datos e iniciará la interfaz de usuario de Azure Data Factory
+En este tutorial creará una factoría de datos e iniciará la interfaz de usuario de Azure Data Factory. Este es el punto de incio de muchos de los otros tutoriales.
 
 [Creación de una factoría de datos con la interfaz de usuario de Azure Data Factory](/Azure%20Data%20Factory/Tutoriales/Creaci%C3%B3n%20de%20una%20factor%C3%ADa%20de%20datos%20con%20la%20interfaz%20de%20usuario%20de%20Azure%20Data%20Factory.md)
 
